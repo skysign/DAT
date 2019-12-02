@@ -20,7 +20,7 @@ Udacity / Data Analyst Nanodegree Program<br>
 Python을 기본으로, Pandas를 사용하여 데이터 분석을 함께 공부했습니다.
 
 ## 앞으로 스터디 할 내용
-- 'Do it! 쉽게 배우는 R 데이터 분석' https://book.naver.com/bookdb/book_detail.nhn?bid=12256508
+- ['Do it! 쉽게 배우는 R 데이터 분석'](https://book.naver.com/bookdb/book_detail.nhn?bid=12256508) 책 스터디 멤버 모집합니다.
 - Google Analytics https://analytics.google.com
 
 # 스터디 진행
