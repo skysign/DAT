@@ -24,7 +24,8 @@ corona19 한국 현황을 data frame으로 받아 옮니다.
 
 ```{r setup, include=FALSE}
 #install.packages("remotes")
-#remotes::install_github("youngwoos/corona19")
+#remotes::install_github("youngwoos/corona19", force = TRUE)
+#remotes::uninstall_github("youngwoos/corona19")
 ```
 
 ## 필요한 라이브러리 로드
@@ -37,7 +38,7 @@ library(ggplot2)
 ## https://github.com/youngwoos/corona19 에 있는 샘플 차트
 
 ```{r}
-state <- getdata("state")
+state <- getdata("time")
 state
 
 ggplot(data = state, aes(x = date, y = confirmed)) + 
@@ -311,7 +312,7 @@ ggplot(data = state, aes(x = date)) +
 
 y_label = '누적 확진자'
 
-sinceWhen = 30
+sinceWhen = 35
 datebreaks <- seq(Sys.Date() - sinceWhen, Sys.Date(), by="1 day")
 ybreaks <- seq(0, 10000, 500)
 
