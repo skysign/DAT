@@ -5,6 +5,10 @@ date: '2020 3 8 '
 output: html_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 # 코로나19 한국 현황 차트로 그려보기
 
 'Do it! 쉽게 배우는 R 데이터 분석' http://www.yes24.com/Product/Goods/44015086
@@ -25,17 +29,16 @@ corona19 한국 현황을 data frame으로 받아 옮니다.
 ```{r setup, include=FALSE}
 #install.packages("remotes")
 #remotes::install_github("youngwoos/corona19", force = TRUE)
-#remotes::uninstall_github("youngwoos/corona19")
+#remotes::install_github("youngwoos/corona19")
 ```
 
 ## 필요한 라이브러리 로드
-
 ```{r libraries, include=FALSE}
 library(corona19)
 library(ggplot2)
 ```
 
-## https://github.com/youngwoos/corona19 에 있는 샘플 차트
+## https://github.com/youngwoos/corona19 에 있는 샘플 차트+
 
 ```{r}
 state <- getdata("time")
@@ -61,7 +64,7 @@ http://www.ddanzi.com/index.php?mid=free&statusList=HOT%2CHOTBEST%2CHOTAC%2CHOTB
 ## 차트 그리기 전에 데이터 정리 부터 할께요
 
 ```{r}
-# x date: 일자
+# x date: 일자=
 # y confirmed: 누적 양성 결과 수 (확진)
 
 # 차트를 그리기 위해서는 confirmed로 부터 일별 양성 결과수를 알아내야 합니다.
@@ -278,7 +281,7 @@ ggplot(data = state, aes(x = date)) +
   scale_x_date(breaks = datebreaks, limits = c(Sys.Date() - 20, NA), date_labels = "%m-%d")
 ```
 
-```{r fig.width = 15, fig.height = 10, warning=FALSE}
+```{r fig.width = 30, fig.height = 10, warning=FALSE}
 # x date: 일자
 # gome_line() y confirmed: 누적 양성 결과 수 (확진)
 # geom_bar() y new_confirmed: 신규 양성 결과 수 (확진)
@@ -303,7 +306,7 @@ ggplot(data = state, aes(x = date)) +
 ```
 
 
-```{r fig.width = 15, fig.height = 10, warning=FALSE}
+```{r fig.width = 30, fig.height = 20, warning=FALSE}
 # x date: 일자
 # gome_line() y confirmed: 누적 양성 결과 수 (확진)
 # geom_bar() y new_confirmed: 신규 양성 결과 수 (확진)
@@ -312,7 +315,7 @@ ggplot(data = state, aes(x = date)) +
 
 y_label = '누적 확진자'
 
-sinceWhen = 35
+sinceWhen = 50
 datebreaks <- seq(Sys.Date() - sinceWhen, Sys.Date(), by="1 day")
 ybreaks <- seq(0, 10000, 500)
 
