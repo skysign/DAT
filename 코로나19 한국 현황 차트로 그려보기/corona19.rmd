@@ -2,11 +2,16 @@
 title: "코로나19 한국 현황 차트로 그려보기"
 author: "author"
 date: '2020 3 8 '
-output: html_document
+output:
+  md_document:
+    variant: markdown_github
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+#install.packages("remotes")
+#remotes::install_github("youngwoos/corona19", force = TRUE)
+#remotes::install_github("youngwoos/corona19")
 ```
 
 # 코로나19 한국 현황 차트로 그려보기
@@ -25,12 +30,6 @@ knitr::opts_chunk$set(echo = TRUE)
 corona19 한국 현황을 data frame으로 받아 옮니다.
 
 - 코로나19 데이터셋은 https://github.com/jihoo-kim/Coronavirus-Dataset 여기서 받아 옮니다
-
-```{r setup, include=FALSE}
-#install.packages("remotes")
-#remotes::install_github("youngwoos/corona19", force = TRUE)
-#remotes::install_github("youngwoos/corona19")
-```
 
 ## 필요한 라이브러리 로드
 ```{r libraries, include=FALSE}
@@ -332,17 +331,6 @@ ggplot(data = state, aes(x = date)) +
 
 차트 모양은 아래 링크 참고하세요.
 http://www.ddanzi.com/index.php?mid=free&statusList=HOT%2CHOTBEST%2CHOTAC%2CHOTBESTAC&document_srl=603724861
-
-```{r}
-
-```
-
-# 일별 검사 건수
-
-앞에서, 누적으로 되어 있는 값을 일별 증감량으로 변환하는 방법을 설명했습니다. ave()와 diff()를 활용해서 아래 2 컬럼을 사용해서, 일별 검사 건수를 알아낼 수 있습니다.
-
-negative: 누적 음성 결과 수
-confirmed: 누적 양성 결과 수 (확진)
 
 ```{r}
 
