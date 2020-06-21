@@ -20,8 +20,7 @@
 
 ## 스터디 진행 중
 - ['Do it! 쉽게 배우는 R 데이터 분석'](https://book.naver.com/bookdb/book_detail.nhn?bid=12256508) 책 스터디 멤버 모집합니다.
-- 한국 주소를 다룰 수 있는 R Package, KoreaAddressAPI를 함께 개발중입니다.
- - https://skysign.github.io/KoreaAddressAPI/
+- 한국 주소를 다룰 수 있는 R Package, [KoreaAddressAPI](https://skysign.github.io/KoreaAddressAPI/)를 함께 개발중입니다.
 
 ## 앞으로 스터디 할 내용
 - Google Analytics https://analytics.google.com
