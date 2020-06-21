@@ -1,26 +1,29 @@
 # DAT / Data Analysis Together
-데이터분석을 함께 공부하는 스터디입니다.
-몇 분더 오셔서 함께 스터디했으면 좋겠습니다.
+- 데이터분석을 함께 공부하는 스터디입니다.
+- 함께 공부하시는 분들 모두, 데이터분석은 처음이였지만, 서두르지 않고 꾸준히 이어나가고 있습니다
+- 처음 데이터분석을 시작하는 분들도 환영합니다. ^^
 
-## 스터디 멤버 소개
-스터디 모임을 주선해주시는 곳에서 만나서, 함께 스터디를 시작한지 1년이 훌쩍 넘었네요.<br>
-함께 공부하시는 분들 모두, 데이터분석은 처음이였지만, 서두르지 않고 꾸준히 이어나가고 있습니다.
+# 스터디에서 공부하는 주제는...
+- Data Analysis에 대한 것이면 무엇인든
+- 데이터분석에 대한 기초를 쌓기 위해서, udacity의 Data Analysis 강좌를 함께 공부했습니다.<br>
+- 앞으로는 R에 대한 기초도 함께 공부하고, Google Analytics도 공부해 보려고 합니다.
 
-# 커리큘럼
-데이터분석에 대한 기초를 쌓기 위해서, udacity의 Data Analysis 강좌를 함께 공부했습니다.<br>
-앞으로는 R에 대한 기초도 함께 공부하고, Google Analytics도 공부해 보려고 합니다.
+## 무엇을 함께 공부했냐면...
+### 2017년~2018년
+- Udacity / Data Foundation 강좌
+ - 데이터분석에 관한 기본적인 내용을 학습했습니다.
 
-## 스터디 완료
-2017년~2018년<br>
-Udacity / Data Foundation 강좌<br>
-데이터분석에 관한 기본적인 내용을 학습했습니다.
+### 2019년
+- Udacity / Data Analyst Nanodegree Program<br>
+ - Python을 기본으로, Pandas를 사용하여 데이터 분석을 함께 공부했습니다.
+ - R도 조금 다뤄 봤구요, SQL도 ^^a
 
 ## 스터디 진행 중
-Udacity / Data Analyst Nanodegree Program<br>
-Python을 기본으로, Pandas를 사용하여 데이터 분석을 함께 공부했습니다.
+- ['Do it! 쉽게 배우는 R 데이터 분석'](https://book.naver.com/bookdb/book_detail.nhn?bid=12256508) 책 스터디 멤버 모집합니다.
+- 한국 주소를 다룰 수 있는 R Package, KoreaAddressAPI를 함께 개발중입니다.
+ - https://skysign.github.io/KoreaAddressAPI/
 
 ## 앞으로 스터디 할 내용
-- ['Do it! 쉽게 배우는 R 데이터 분석'](https://book.naver.com/bookdb/book_detail.nhn?bid=12256508) 책 스터디 멤버 모집합니다.
 - Google Analytics https://analytics.google.com
 
 # 스터디 진행
